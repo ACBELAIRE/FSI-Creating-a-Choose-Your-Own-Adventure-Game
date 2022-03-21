@@ -10,14 +10,14 @@
     }
     let firstAnswer = window.prompt ('Do you follow or continue?')
      if(firstAnswer === 'Follow'){
-         let secondAnswer = window.prompt(`You follow the cat to a colony of cats, 
+         let secondAnswer = window.prompt('You follow the cat to a colony of cats, 
          nestled in a fort of warm blankets and subsisting off of inexplicably warm soup. 
          They are content with you staying, but you wonder if you should alert the world to 
-         this magical safe haven.`)
+         this magical safe haven.'')
     } else if(firstAnswer === 'Continue'){
-        let secondAnswer = window.prompt(`You come across a chamber that reaches upward to a 
+        let secondAnswer = window.prompt('You come across a chamber that reaches upward to a 
         shining light above. There is a long, winding staircase, and a much quicker, but 
-        rickety-looking ladder that leads up toward the light. Which do you take?`)
+        rickety-looking ladder that leads up toward the light. Which do you take?'')
     }
 
     let firstAnswer = window.prompt('Do you stay or Spread the word?'
@@ -30,11 +30,11 @@
     }
     let firstAnswer = window.prompt('Do you take the ladder or staircase?')
     if(firstAnswer === 'ladder'){
-        let secondAnswer = window.prompt(`After ascending a few feet up the ladder, one of its rungs snaps,
-         and you comedically fall through each of the rungs below. Sheepish, you return home.`)
+        let secondAnswer = window.prompt('After ascending a few feet up the ladder, one of its rungs snaps,
+         and you comedically fall through each of the rungs below. Sheepish, you return home.)
     } else if(firstAnswer === 'Staircase'){
-        let secondAnswer = window.prompt(`After ascending a few feet up the ladder, one of its 
-        rungs snaps, and you comedically fall through each of the rungs below. Sheepish, you return home.)
+        let secondAnswer = window.prompt('After ascending a few feet up the ladder, one of its 
+        rungs snaps, and you comedically fall through each of the rungs below. Sheepish, you return home.')
     }
 
     let firstAnswer = window.prompt('Do you go pass the dragon or away from the dragon?)
