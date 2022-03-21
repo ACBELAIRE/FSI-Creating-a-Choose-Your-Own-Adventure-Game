@@ -19,10 +19,9 @@
         rickety-looking ladder that leads up toward the light. Which do you take?)
     }
     if(firstAnswer === 'Stay'){
-        let secondAnswer = window.prompt(`You live happily amongst the cats for the rest of your days.`)
-
-    } else  if(firstAnswer === 'Spread the word.'){
-        let secondAnswer= window.prompt(`After leaving the cat colony, you are never able to find it 
+        let secondAnswer = window.alert(`You live happily amongst the cats for the rest of your days.`)
+    } else if(firstAnswer === 'Spread the word.'){
+        let secondAnswer= window.alert(`After leaving the cat colony, you are never able to find it 
         again; without proof, no one believes your story, which passes into legend nonetheless.`)
     }
     if(firstAnswer === 'ladder'){
@@ -39,16 +38,16 @@
         you decide you must either draw it or pick it. Which do you do?')
     }
     if(firstAnswer === 'Stay'){
-         let secondAnswer = window.prompt(`You and the dragon have an uplifting conversation about local politics and become lifelong friends`)
+         let secondAnswer = window.alert(`You and the dragon have an uplifting conversation about local politics and become lifelong friends`)
     } else  if(firstAnswer === 'Run'){
-        let secondAnswer= window.prompt(`Quickly, you run back to the cave's entrance. Sheepish, you return home.`)
+        let secondAnswer= window.alert(`Quickly, you run back to the cave's entrance. Sheepish, you return home.`)
     }
     if(firstAnswer === 'Draw it'){
-        let secondAnswer = window.prompt('You draw the flower, capturing only a fraction of its beauty with your quill. 
+        let secondAnswer = window.alert('You draw the flower, capturing only a fraction of its beauty with your quill. 
         You bring the drawing home, somewhat disappointed, but over time, discover joy in sharing it with your friends 
         and family, recounting the story of your days as a sorcerer with the aid of the sketch.')
     }else if (firstAnswer === 'Pick it'){
-        let secondAnswer = winodw.prompt('You pick the flower and bring it home, and all marvel at its brilliance. 
+        let secondAnswer = winodw.alert('You pick the flower and bring it home, and all marvel at its brilliance. 
         However, over time it fades and eventually crumbles to dust.')
     }
     
